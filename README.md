@@ -1,6 +1,6 @@
 # Pesq-Automate
 
-1.Instalação de Pacotes necessários no GNU/LINUX
+1.Instalação de Pacotes necessários no GNU/Linux:
 
 * GNU/Linux Ubuntu:
 
