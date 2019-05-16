@@ -2,11 +2,11 @@
 
 1.Instalação de Pacotes necessários no GNU/LINUX
 
-* GNU/LINUX UBUNTU:
+* GNU/Linux Ubuntu:
 
 `sudo apt install octave octave-communications`
 
-* GNU/LINUX Manjaro:
+* GNU/LIinux Manjaro:
 
 ```
 sudo pacman -S octave
