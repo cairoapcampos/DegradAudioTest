@@ -40,3 +40,5 @@ chmod +x GeraAudios.m Gera_PESQ.563.sh Gera_PESQ.862.sh
 6. Rodar o script `Gera_PESQ.862.sh` para gerar o relatório do PESQ.862:
 
 `./Gera_PESQ.862.sh`
+
+Obs: Os scripts utilizados nos passos de 4 a 6 utilizam um loop For de 0 a 30, caso seja necessário por favor altere estes valores. 
