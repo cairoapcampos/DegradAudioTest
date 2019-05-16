@@ -19,6 +19,7 @@ yaourt -S octave-communications --noconfirm
 3. Alterar permissões de scripts para que eles sejam executaveis:
 
 ```
+cd Pesq-Automate
 chmod +x GeraAudios.m
 chmod +x Gera_PESQ.563.sh
 chmod +x Gera_PESQ.862.sh
