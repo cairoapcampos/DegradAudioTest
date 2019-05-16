@@ -24,3 +24,7 @@ chmod +x GeraAudios.m
 chmod +x Gera_PESQ.563.sh
 chmod +x Gera_PESQ.862.sh
 ```
+
+4. Rodar o script `GeraAudios.m` para gerar os audios corrompidos:
+
+`./GeraAudios.m`
