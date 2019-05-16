@@ -15,3 +15,11 @@ yaourt -S octave-communications --noconfirm
 2. Clonar o repositório:
 
 `git clone https://github.com/cairoapcampos/Pesq-Automate.git`
+
+3. Alterar permissões de scripts para que eles sejam executaveis:
+
+```
+chmod +x GeraAudios.m
+chmod +x Gera_PESQ.563.sh
+chmod +x Gera_PESQ.862.sh
+```
