@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for i in $(seq 0 30);
+ do
+ ./PESQ.862 +16000 m_25_en_c_se01.wav m_25_en_c_se01_Degradado$i.wav
+ done
+
+mv pesq_results.txt Result_PESQ.862.txt
