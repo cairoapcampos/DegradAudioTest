@@ -8,5 +8,7 @@
 
 * GNU/LINUX Manjaro:
 
-`sudo pacman -S octave`
-`yaourt -S octave-communications --noconfirm`
+```
+sudo pacman -S octave
+yaourt -S octave-communications --noconfirm
+```
