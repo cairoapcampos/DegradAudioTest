@@ -16,7 +16,13 @@ yaourt -S octave-communications --noconfirm
 
 `git clone https://github.com/cairoapcampos/Pesq-Automate.git`
 
-3. Alterar permissões de scripts para que eles sejam executaveis:
+3. Alterar permissões de scripts e binários para que eles sejam executaveis:
+
+*Binários:
+
+`chmod +x PESQ.563 PESQ.862`
+
+*Scripts:
 
 ```
 cd Pesq-Automate
