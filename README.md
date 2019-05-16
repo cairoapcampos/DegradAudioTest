@@ -18,11 +18,11 @@ yaourt -S octave-communications --noconfirm
 
 3. Alterar permissões de scripts e binários para que eles sejam executaveis:
 
-*Binários:
+* Binários:
 
 `chmod +x PESQ.563 PESQ.862`
 
-*Scripts:
+* Scripts:
 
 ```
 cd Pesq-Automate
