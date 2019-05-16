@@ -12,7 +12,7 @@ t = t(1:end-1);
 
 pkg load communications;
 
-SNR = 50; 
+SNR = i; 
 y_degr = awgn(y,SNR);
 
 audio_file_out = strcat(str(k(end)+1:end-4),'_Degradado',int2str(i),'.wav');
