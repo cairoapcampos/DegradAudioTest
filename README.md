@@ -12,3 +12,6 @@
 sudo pacman -S octave
 yaourt -S octave-communications --noconfirm
 ```
+2. Clonar o repositório:
+
+git clone https://github.com/qin/p.563.git
