@@ -14,7 +14,7 @@ yaourt -S octave-communications --noconfirm
 ```
 2. Clonar o repositório:
 
-`git clone https://github.com/cairoapcampos/DegrAudioTest.git`
+`git clone https://github.com/cairoapcampos/DegradAudioTest.git`
 
 3. Alterar permissões de scripts e binários para que eles sejam executaveis:
 
