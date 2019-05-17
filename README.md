@@ -38,7 +38,7 @@ chmod +x GeraAudios.m Gera_P563.sh Gera_P862.sh
 
 `./Gera_P563.sh`
 
-6. Rodar o script `Gera_PESQ.862.sh` para gerar o relatório do PESQ.862:
+6. Rodar o script `Gera_P862.sh` para gerar o relatório do P862:
 
 `./Gera_P862.sh`
 
