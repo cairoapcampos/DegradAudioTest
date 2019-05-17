@@ -27,12 +27,12 @@ yaourt -S octave-communications --noconfirm
 * Scripts:
 
 ```
-chmod +x Generate_Audios.m Generate_Report_P563.sh Generate_Report_P862.sh
+chmod +x Generate_Degrad_Audios.m Generate_Report_P563.sh Generate_Report_P862.sh
 ```
 
-4. Rodar o script `Generate_Audios.m` para gerar os audios degradados:
+4. Rodar o script `Generate_Degrad_Audios.m` para gerar os audios degradados:
 
-`./Generate_Audios.m`
+`./Generate_Degrad_Audios.m`
 
 5. Rodar o script `Generate_Report_P563.sh` para gerar o relatório do P.563:
 
