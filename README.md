@@ -18,6 +18,8 @@ yaourt -S octave-communications --noconfirm
 
 3. Alterar permissões de scripts e binários para que eles sejam executaveis:
 
+`cd DegrAudioTest`
+
 * Binários:
 
 `chmod +x PESQ.563 PESQ.862`
@@ -25,7 +27,6 @@ yaourt -S octave-communications --noconfirm
 * Scripts:
 
 ```
-cd Pesq-Automate
 chmod +x GeraAudios.m Gera_PESQ.563.sh Gera_PESQ.862.sh
 ```
 
