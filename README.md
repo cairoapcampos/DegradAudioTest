@@ -34,11 +34,11 @@ chmod +x Generate_Audios.m Generate_P563.sh Generate_P862.sh
 
 `./Generate_Audios.m`
 
-5. Rodar o script `Generate_P563.sh` para gerar o relatório do P563:
+5. Rodar o script `Generate_P563.sh` para gerar o relatório do P.563:
 
 `./Generate_P563.sh`
 
-6. Rodar o script `Generate_P862.sh` para gerar o relatório do P862:
+6. Rodar o script `Generate_P862.sh` para gerar o relatório do P.862:
 
 `./Generate_P862.sh`
 
