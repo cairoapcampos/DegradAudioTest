@@ -27,19 +27,19 @@ yaourt -S octave-communications --noconfirm
 * Scripts:
 
 ```
-chmod +x GeraAudios.m Gera_PESQ.563.sh Gera_PESQ.862.sh
+chmod +x GeraAudios.m Gera_P563.sh Gera_P862.sh
 ```
 
 4. Rodar o script `GeraAudios.m` para gerar os audios corrompidos:
 
 `./GeraAudios.m`
 
-5. Rodar o script `Gera_PESQ.563.sh` para gerar o relatório do PESQ.563:
+5. Rodar o script `Gera_P563.sh` para gerar o relatório do P563:
 
-`./Gera_PESQ.563.sh`
+`./Gera_P563.sh`
 
 6. Rodar o script `Gera_PESQ.862.sh` para gerar o relatório do PESQ.862:
 
-`./Gera_PESQ.862.sh`
+`./Gera_P862.sh`
 
 Obs: Os scripts utilizados nos passos de 4 a 6 utilizam um loop For de 0 a 30, caso seja necessário por favor altere estes valores. 
