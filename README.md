@@ -1,4 +1,4 @@
-# Pesq-Automate
+# DegrAudioTest
 
 1.Instalação de Pacotes necessários no GNU/Linux:
 
