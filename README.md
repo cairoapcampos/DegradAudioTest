@@ -22,7 +22,7 @@ yaourt -S octave-communications --noconfirm
 
 * Binários:
 
-`chmod +x PESQ.563 PESQ.862`
+`chmod +x P563 P862`
 
 * Scripts:
 
