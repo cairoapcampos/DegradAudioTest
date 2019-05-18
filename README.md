@@ -16,29 +16,30 @@ yaourt -S octave-communications --noconfirm
 
 `git clone https://github.com/cairoapcampos/DegradAudioTest.git`
 
-3. Alterar permissões de scripts e binários para que eles sejam executaveis:
+3. Alterar permissões de scripts para que sejam executaveis:
 
-`cd DegrAudioTest`
+`cd DegradAudioTest`
 
-* Binários:
+```
+chmod +x Compile_Binary.sh Generate_Degrad_Audios.m Generate_Report_P563.sh Generate_Report_P862.sh
+```
+4. Rodar o script `Compile_Binary.sh` para gerar os binários do P.563 e P.862:
+
+`./Compile_Binary.sh`
+
+5. Alterar permissões de binários para que sejam executaveis:
 
 `chmod +x P563 P862`
 
-* Scripts:
-
-```
-chmod +x Generate_Degrad_Audios.m Generate_Report_P563.sh Generate_Report_P862.sh
-```
-
-4. Rodar o script `Generate_Degrad_Audios.m` para gerar os audios degradados:
+6. Rodar o script `Generate_Degrad_Audios.m` para gerar os audios degradados:
 
 `./Generate_Degrad_Audios.m`
 
-5. Rodar o script `Generate_Report_P563.sh` para gerar o relatório do P.563:
+7. Rodar o script `Generate_Report_P563.sh` para gerar o relatório do P.563:
 
 `./Generate_Report_P563.sh`
 
-6. Rodar o script `Generate_Report_P862.sh` para gerar o relatório do P.862:
+8. Rodar o script `Generate_Report_P862.sh` para gerar o relatório do P.862:
 
 `./Generate_Report_P862.sh`
 
