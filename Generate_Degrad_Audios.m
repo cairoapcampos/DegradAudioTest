@@ -2,10 +2,10 @@
 
 for i=0:30
 
-info = audioinfo('m_25_en_c_se01.wav');
+info = audioinfo('/home/user/Downloads/DegradAudioTest/m_25_en_c_se01.wav');
 str = info.Filename;
 k = strfind(str, '/');
-[y,Fs] = audioread('m_25_en_c_se01.wav');
+[y,Fs] = audioread('/home/user/Downloads/DegradAudioTest/m_25_en_c_se01.wav');
 t = 0:(1/Fs):info.Duration;
 t = t(1:end-1);
 #sound(y,Fs);
