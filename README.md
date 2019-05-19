@@ -7,12 +7,10 @@
 `sudo apt install octave octave-communications git`
 
 
-<!--  * GNU/LIinux Manjaro:
+<!--  GNU/LIinux Manjaro: -->
 
-```
-sudo pacman -S octave git
+<!--  sudo pacman -S octave git
 yaourt -S octave-communications --noconfirm -->
-```
 
 2. Entrar na pasta downloads
 
