@@ -1,5 +1,8 @@
 # DegradAudioTest
 
+<!-- Os parágrafos estão uma ou várias linhas adjacentes de texto separadas por 
+uma ou múltiplas linhas em branco. -->
+
 1. Instalação de Pacotes necessários no GNU/Linux:
 
 * GNU/Linux Ubuntu:
