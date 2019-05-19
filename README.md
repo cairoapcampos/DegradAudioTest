@@ -1,19 +1,17 @@
 # DegradAudioTest
 
-<!-- Os parágrafos estão uma ou várias linhas adjacentes de texto separadas por 
-uma ou múltiplas linhas em branco. -->
-
 1. Instalação de Pacotes necessários no GNU/Linux:
 
 * GNU/Linux Ubuntu:
 
 `sudo apt install octave octave-communications git`
 
-* GNU/LIinux Manjaro:
+
+<!--  * GNU/LIinux Manjaro:
 
 ```
 sudo pacman -S octave git
-yaourt -S octave-communications --noconfirm
+yaourt -S octave-communications --noconfirm -->
 ```
 
 2. Entrar na pasta downloads
