@@ -8,3 +8,4 @@ for i in $(seq 0 30);
  
 echo "Filename        MOS" > Result_P563.txt
 cat Result_tmp.txt | grep -v Filename >> Result_P563.txt
+rm Result_tmp.txt
