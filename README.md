@@ -48,8 +48,10 @@ Obs: Os scripts utilizados nos passos de 6 a 8 utilizam um loop For de 0 a 30, c
 
 9. Abrir arquivos gerados:
 
-`libreoffice --calc Result_P563.csv`
-`libreoffice --calc Result_P862.csv`
+```
+libreoffice --calc Result_P563.csv
+libreoffice --calc Result_P862.csv
+```
 
 ### Fontes: 
 
