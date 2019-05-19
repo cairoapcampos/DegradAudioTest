@@ -8,7 +8,6 @@
 
 
 <!--  GNU/LIinux Manjaro: -->
-
 <!--  sudo pacman -S octave git
 yaourt -S octave-communications --noconfirm -->
 
