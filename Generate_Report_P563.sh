@@ -6,6 +6,6 @@ for i in $(seq 0 30);
  done | tee Result_tmp.txt
  
  
-echo "Filename        MOS" > Result_P563.txt
-cat Result_tmp.txt | grep -v Filename >> Result_P563.txt
+echo "Filename        MOS" > Result_P563.csv
+cat Result_tmp.txt | grep -v Filename >> Result_P563.csv
 rm Result_tmp.txt
