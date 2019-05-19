@@ -1,6 +1,6 @@
 # DegradAudioTest
 
-1.Instalação de Pacotes necessários no GNU/Linux:
+1. Instalação de Pacotes necessários no GNU/Linux:
 
 * GNU/Linux Ubuntu:
 
@@ -12,34 +12,39 @@
 sudo pacman -S octave git
 yaourt -S octave-communications --noconfirm
 ```
-2. Clonar o repositório:
+
+2. Entrar na pasta downloads
+
+`cd $HOME/Downloads`
+
+3. Clonar o repositório:
 
 `git clone https://github.com/cairoapcampos/DegradAudioTest.git`
 
-3. Alterar permissões de scripts para que sejam executaveis:
+4. Alterar permissões de scripts para que sejam executaveis:
 
 `cd DegradAudioTest`
 
 ```
 chmod +x Compile_Binary.sh Generate_Degrad_Audios.m Generate_Report_P563.sh Generate_Report_P862.sh
 ```
-4. Rodar o script `Compile_Binary.sh` para gerar os binários do P.563 e P.862:
+5. Rodar o script `Compile_Binary.sh` para gerar os binários do P.563 e P.862:
 
 `./Compile_Binary.sh`
 
-5. Alterar permissões de binários para que sejam executaveis:
+6. Alterar permissões de binários para que sejam executaveis:
 
 `chmod +x P563 P862`
 
-6. Rodar o script `Generate_Degrad_Audios.m` para gerar os audios degradados:
+7. Rodar o script `Generate_Degrad_Audios.m` para gerar os audios degradados:
 
 `./Generate_Degrad_Audios.m`
 
-7. Rodar o script `Generate_Report_P563.sh` para gerar o relatório do P.563:
+8. Rodar o script `Generate_Report_P563.sh` para gerar o relatório do P.563:
 
 `./Generate_Report_P563.sh`
 
-8. Rodar o script `Generate_Report_P862.sh` para gerar o relatório do P.862:
+9. Rodar o script `Generate_Report_P862.sh` para gerar o relatório do P.862:
 
 `./Generate_Report_P862.sh`
 
