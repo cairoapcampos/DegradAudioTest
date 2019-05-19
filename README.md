@@ -44,7 +44,12 @@ Obs: No arquivo substituir "user" por o nome do usuário do sistema.
 
 `./Generate_Report_P862.sh`
 
-Obs: Os scripts utilizados nos passos de 4 a 6 utilizam um loop For de 0 a 30, caso seja necessário por favor altere estes valores. 
+Obs: Os scripts utilizados nos passos de 6 a 8 utilizam um loop For de 0 a 30, caso seja necessário por favor altere estes valores. 
+
+9. Abrir arquivos gerados:
+
+`libreoffice --calc Result_P563.csv`
+`libreoffice --calc Result_P862.csv`
 
 ### Fontes: 
 
