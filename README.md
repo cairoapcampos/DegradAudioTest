@@ -30,19 +30,17 @@ chmod +x Compile_Binary.sh Generate_Degrad_Audios.m Generate_Report_P563.sh Gene
 
 `./Compile_Binary.sh`
 
-6. Alterar permissões de binários para que sejam executaveis:
-
-`chmod +x P563 P862`
-
-7. Rodar o script `Generate_Degrad_Audios.m` para gerar os audios degradados:
+6. Rodar o script `Generate_Degrad_Audios.m` para gerar os audios degradados:
 
 `./Generate_Degrad_Audios.m`
 
-8. Rodar o script `Generate_Report_P563.sh` para gerar o relatório do P.563:
+Obs: No arquivo substituir "user" por o nome do usuário do sistema.
+
+7. Rodar o script `Generate_Report_P563.sh` para gerar o relatório do P.563:
 
 `./Generate_Report_P563.sh`
 
-9. Rodar o script `Generate_Report_P862.sh` para gerar o relatório do P.862:
+8. Rodar o script `Generate_Report_P862.sh` para gerar o relatório do P.862:
 
 `./Generate_Report_P862.sh`
 
