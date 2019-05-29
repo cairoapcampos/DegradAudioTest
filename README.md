@@ -1,4 +1,4 @@
-# DegradAudioTest (Atividade 1)
+# DegradAudioTest (Trabalho 1)
 
 1. Instalação de Pacotes necessários no GNU/Linux:
 
